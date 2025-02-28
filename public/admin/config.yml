@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: yourusername/yourrepo  # Replace with your GitHub repo
+  repo: kevindiska/kevins_site  # Replace with your GitHub repo
   branch: main
   auth_endpoint: https://github.com/login/oauth/authorize
   base_url: https://kevinverse.duckdns.org
