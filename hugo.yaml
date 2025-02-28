@@ -1,4 +1,3 @@
-baseURL: https://example.org/
-languageCode: en-us
-title: My New Hugo Site
-theme: "PaperMod"
+baseURL: "https://localhost:1313/"
+title: "Kevin's Universe"
+theme: PaperMod

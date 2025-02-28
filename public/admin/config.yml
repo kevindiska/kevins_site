@@ -1,0 +1,20 @@
+backend:
+  name: github
+  branch: main  # Change to your actual branch name
+  repo: kevindiska/kevins_site
+
+media_folder: "static/uploads" # Where uploaded images are stored
+public_folder: "/uploads" # Public URL for images
+site_url: "https://localhost:1313"
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
