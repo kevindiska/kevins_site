@@ -1,3 +1,12 @@
-baseURL: "https://localhost:1313/"
-title: "Kevin's Universe"
-theme: PaperMod
+baseURL: https://example.org/
+languageCode: en-us
+title: 🌏 KevinVerse
+theme: "PaperMod"
+
+params:
+  homeInfoParams:
+    Title: "Welcome to Kevin's Universe"
+    Content: "This is my blog where I write about awesome things!"
+  mainSections:
+    - title: mana
+    - posts
