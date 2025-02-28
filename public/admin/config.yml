@@ -1,14 +1,12 @@
 backend:
   name: github
-  repo: kevindiska/kevins_site  # Replace with your GitHub repo
+  repo: kevindiska/kevins_site
   branch: main
-  auth_endpoint: https://github.com/login/oauth/authorize
-  base_url: https://kevinverse.duckdns.org
-  oauth_client_id: "Ov23liaF7ZIRQIRYMnH4"
+  auth_endpoint: https://kevinverse.duckdns.org/auth
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
-site_url: "https://localhost:1313" # Change to your real domain later
+site_url: "https://kevinverse.duckdns.org/" # Change to your real domain later
 
 collections:
   - name: "blog"
@@ -24,7 +22,7 @@ collections:
       - { label: "Categories", name: "categories", widget: "list", required: false }
       - { label: "Tags", name: "tags", widget: "list", required: false }
       - { label: "Featured Image", name: "image", widget: "image", required: false }
-      - { label: "Show Image in List", name: "ShowToc", widget: "boolean", default: false }
+      - { label: "Show Image in List", name: "show_image_in_list", widget: "boolean", default: false }
       - { label: "Table of Contents", name: "ShowToc", widget: "boolean", default: false }
       - { label: "Draft", name: "draft", widget: "boolean", default: true }
       - { label: "Body", name: "body", widget: "markdown" }
