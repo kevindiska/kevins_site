@@ -8,5 +8,4 @@ params:
     Title: "Welcome to Kevin's Universe"
     Content: "This is my blog where I write about awesome things!"
   mainSections:
-    - title: mana
     - posts
