@@ -6,6 +6,18 @@ theme: "PaperMod"
 params:
   homeInfoParams:
     Title: "Welcome to Kevin's Universe"
-    Content: "This is my blog where I write about awesome things!"
+    # Content: "Sales, Tech & Life - Random Thoughts "
+    content: |
+      **KevinVerse** is a space where I share thoughts on:
+      
+      - 🛠 **Tech & Open-Source**  
+      - 🎯 **Sales Strategies**  
+      - 🧠 **Psychology & ADHD**  
+      - 💡 **Life Musings**  
+      
+      Expect **guides, insights, and experiments**—because I love learning and sharing what I discover.  
+
+      *Stay curious, stay awesome!* 🚀
+
   mainSections:
     - posts

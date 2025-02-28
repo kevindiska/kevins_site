@@ -1,0 +1,28 @@
+backend:
+  name: github
+  branch: main
+  repo: kevindiska/kevins_site
+
+media_folder: "static/uploads"
+public_folder: "/uploads"
+site_url: "https://localhost:1313" # Change to your real domain later
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ssZZ" }
+      - { label: "Author", name: "author", widget: "string", default: "Kevin" }
+      - { label: "Description", name: "description", widget: "text", required: false }
+      - { label: "Categories", name: "categories", widget: "list", required: false }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Featured Image", name: "image", widget: "image", required: false }
+      - { label: "Show Image in List", name: "ShowToc", widget: "boolean", default: false }
+      - { label: "Table of Contents", name: "ShowToc", widget: "boolean", default: false }
+      - { label: "Draft", name: "draft", widget: "boolean", default: true }
+      - { label: "Body", name: "body", widget: "markdown" }
+
