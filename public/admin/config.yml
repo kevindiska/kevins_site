@@ -4,10 +4,19 @@ backend:
   branch: main
   auth_endpoint: https://kevinverse.duckdns.org/auth
 
+site_url: "https://kevinverse.duckdns.org/"
+
+# ✅ Required: Define where uploaded images go
 media_folder: "static/uploads"
 public_folder: "/uploads"
-site_url: "https://kevinverse.duckdns.org/" # Change to your real domain later
 
+# ✅ Required: Media Library
+media_library:
+  name: uploadcare
+  config:
+    publicKey: demo  # Change this to your Uploadcare public key if needed
+
+# ✅ Required: Collections (Defines how CMS handles content)
 collections:
   - name: "blog"
     label: "Blog"
@@ -23,7 +32,39 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", required: false }
       - { label: "Featured Image", name: "image", widget: "image", required: false }
       - { label: "Show Image in List", name: "show_image_in_list", widget: "boolean", default: false }
-      - { label: "Table of Contents", name: "ShowToc", widget: "boolean", default: false }
+      - { label: "Table of Contents", name: "show_toc", widget: "boolean", default: false }
       - { label: "Draft", name: "draft", widget: "boolean", default: true }
       - { label: "Body", name: "body", widget: "markdown" }
 
+
+
+# ----- Great Change above
+#backend:
+#  name: github
+#  repo: kevindiska/kevins_site
+#  branch: main
+#  auth_endpoint: https://kevinverse.duckdns.org/auth
+#
+#media_folder: "static/uploads"
+#public_folder: "/uploads"
+#site_url: "https://kevinverse.duckdns.org/" # Change to your real domain later
+#
+#collections:
+#  - name: "blog"
+#    label: "Blog"
+#    folder: "content/posts"
+#    create: true
+#    slug: "{{slug}}"
+#    fields:
+#      - { label: "Title", name: "title", widget: "string" }
+#      - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ssZZ" }
+#      - { label: "Author", name: "author", widget: "string", default: "Kevin" }
+#      - { label: "Description", name: "description", widget: "text", required: false }
+#      - { label: "Categories", name: "categories", widget: "list", required: false }
+#      - { label: "Tags", name: "tags", widget: "list", required: false }
+#      - { label: "Featured Image", name: "image", widget: "image", required: false }
+#      - { label: "Show Image in List", name: "show_image_in_list", widget: "boolean", default: false }
+#      - { label: "Table of Contents", name: "ShowToc", widget: "boolean", default: false }
+#      - { label: "Draft", name: "draft", widget: "boolean", default: true }
+#      - { label: "Body", name: "body", widget: "markdown" }
+#

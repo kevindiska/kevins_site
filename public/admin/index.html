@@ -9,7 +9,22 @@
 <body>
     <!--<script src="https://cdn.jsdelivr.net/npm/decap-cms@^3.0.0/dist/decap-cms.js"></script>-->
     <!--<script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>-->
-    <script type="module" src="admin.js"></script>
+    <!--<script type="module" src="admin.js"></script>-->
+    <!--<script src="https://unpkg.com/decap-cms@latest/dist/decap-cms.js"></script>-->
+
+    <script src="https://unpkg.com/decap-cms@latest/dist/decap-cms.js"></script>
+    <script>
+        CMS.init({
+            config: {
+                backend: {
+                    name: "github",
+                    repo: "kevindiska/kevins_site",
+                    branch: "main",
+                    auth_endpoint: "https://kevinverse.duckdns.org/auth"
+                }
+            }
+        });
+    </script>
 </body>
 </html>
 
