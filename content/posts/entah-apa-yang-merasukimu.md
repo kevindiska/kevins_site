@@ -2,7 +2,7 @@
 title: Entah Apa yang merasukimu
 date: 2025-03-01
 author: Kevin
-description: ntah
+description: ntahgit@github.com sds
 categories: []
 tags: []
 image: ''
