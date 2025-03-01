@@ -2,8 +2,8 @@ backend:
   name: github
   repo: kevindiska/kevins_site
   branch: main
-  auth_endpoint: https://kevinverse.duckdns.org/auth
-  site_url: "https://kevinverse.duckdns.org/"
+  #  auth_endpoint: /auth
+  base_url: "https://kevinverse.duckdns.org/"
 
 # ✅ Commit messages for CMS actions
 commit_messages:
