@@ -1,0 +1,8 @@
+{{ if .IsPage }}
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ .Summary }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:type" content="article">
+<meta property="og:image" content="{{ .Params.image | absURL }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+{{ end }}

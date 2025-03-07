@@ -2,7 +2,7 @@
 title: STOP! Jangan Campur Air ke Aquaproof! Ini 7 Keunggulan Aquaproof yang Wajib Kamu Tahu!
 date: 2025-02-28T19:58:00+0700
 author: Kevin Diska Reynaldi
-description: ''
+description: 'Belum tentu anda tahu tips ini!'
 categories: []
 image: /uploads/images(2)~2.jpg
 draft: false
