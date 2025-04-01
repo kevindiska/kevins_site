@@ -21,5 +21,6 @@ LocalSend fiturnya mirip seperti shareit, yaitu mengirim file dalam satu jaringa
 Tertarik cara pakainya gimana? bisa dong :
 
 1. Download dari  sini https://localsend.org/download
-2. Udah download? tonton video berikut dari LocalSend 
+2. Udah download? tonton video berikut dari LocalSend
+<br> 
 `{{< youtube 2ITezMkbAqE >}}`
