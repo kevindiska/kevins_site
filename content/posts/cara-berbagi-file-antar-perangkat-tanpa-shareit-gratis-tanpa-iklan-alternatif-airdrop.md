@@ -22,4 +22,4 @@ Tertarik cara pakainya gimana? bisa dong :
 
 1. Download dari  sini https://localsend.org/download
 2. Udah download? tonton video berikut dari LocalSend 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/2ITezMkbAqE?si=CeuwfUfojG8xIAKz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+`{{< youtube 2ITezMkbAqE >}}`
