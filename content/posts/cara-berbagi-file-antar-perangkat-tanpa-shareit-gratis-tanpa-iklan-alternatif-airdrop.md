@@ -16,6 +16,7 @@ Pernah ga agan habis foto-foto bareng temen yang pake hp iPhone (penulis sendiri
   alt="Figure of Cross-Platform Software"
   caption="Cross-Platform Software"
   width="50%"
+  class="center"
 >}}
 
 LocalSend fiturnya mirip seperti shareit, yaitu mengirim file dalam satu jaringan. Tapi yang bikin dia beneran _powerful_ yaitu sifatnya yang cross platform atau ada di semua perangkat. Mau kirim video dari iPhone ke Android bisa lebih cepat daripada kirim melalui WhatsApp.
