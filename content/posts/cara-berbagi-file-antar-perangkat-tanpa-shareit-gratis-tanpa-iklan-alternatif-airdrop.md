@@ -10,11 +10,13 @@ image: /uploads/localsend.png
 Halo geisss, kembali lagi bersama Kevin di KevinVerse. 
 
 Pernah ga agan habis foto-foto bareng temen yang pake hp iPhone (penulis sendiri pake hp Android karena miskin), terus butuh gimana caranya transfer data antara iPhone ke Android? ataupun dari Android ke Laptop? atau dari Laptop Windows ke Linux?<br><br>
-<div style="text-align: center;">
-  <img src="/uploads/Logo%20Cross%20platform.png" width=50%  alt="Logo">
-</div>
-<br><br>
-Tentunya bukan shareit yaa, soalnya aplikasi share it ini sekarang banyak iklannya yang bikin geregetan. Kalau boleh, perkenalkan 1 aplikasi baru yang bernama **LocalSend**. 
+
+{{< figure
+  src="/uploads/Logo%20Cross%20platform.png"
+  alt="Figure of Cross-Platform Software"
+  caption="Cross-Platform Software"
+  class="ma0 w-75"
+>}}
 
 LocalSend fiturnya mirip seperti shareit, yaitu mengirim file dalam satu jaringan. Tapi yang bikin dia beneran _powerful_ yaitu sifatnya yang cross platform atau ada di semua perangkat. Mau kirim video dari iPhone ke Android bisa lebih cepat daripada kirim melalui WhatsApp.
 
