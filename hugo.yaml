@@ -2,6 +2,7 @@ baseURL: https://kevinverse.duckdns.org/
 languageCode: en-us
 title: 🌏 KevinVerse
 theme: "PaperMod"
+publishDir: public
 
 params:
   homeInfoParams:
